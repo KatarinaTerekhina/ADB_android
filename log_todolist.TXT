@@ -1,0 +1,291 @@
+01-11 18:01:31.663  2812  2812 D Launcher.CellLayout: touch item:ShortcutInfo, id=336, itemType=0, user=UserHandle{0}, mIconType=0, pkgName=com.android.todolist, className=com.android.todolist.MainActivity, screenId=1, container=-100, cellX=0, cellY=5, spanX=1, spanY=1, isLandscapePos=false
+01-11 18:01:31.717  1611  1769 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[78,1708][246,1876] (has extras) }
+01-11 18:01:31.717  1611  5161 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[78,1708][246,1876] (has extras)} from uid 10090
+01-11 18:01:31.731   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:31.731   973  1031 I ANDR-PERF-LM: FeatureState: readState() 162: PreKill: DB: com.android.todolist app state = 1
+01-11 18:01:31.731   973  1031 I ANDR-PERF-LM: FeatureState: readState() 162: AdaptLaunch: DB: com.android.todolist app state = 99
+01-11 18:01:31.731   973  1031 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 2,com.android.todolist,-1,1611,5161)
+01-11 18:01:31.731   973  1031 I ANDR-PERF-LM: FeatureState: readState() 162: PreKill: DB: com.android.todolist app state = 1
+01-11 18:01:31.737   973  1031 I ANDR-PERF-LM: FeatureState: readState() 162: AdaptLaunch: DB: com.android.todolist app state = 99
+01-11 18:01:31.737   973  1031 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 3,com.android.todolist,-1,1611,5161)
+01-11 18:01:31.737   973  1031 I ANDR-PERF-LM: FeatureState: readState() 162: PreKill: DB: com.android.todolist app state = 1
+01-11 18:01:31.751  2812  2812 D Launcher.ShortcutInfo: onAddToDatabase, this=ShortcutInfo, id=336, itemType=0, user=UserHandle{0}, mIconType=0, pkgName=com.android.todolist, className=com.android.todolist.MainActivity, screenId=1, container=-100, cellX=0, cellY=5, spanX=1, spanY=1, isLandscapePos=false
+01-11 18:01:31.751  2812  2812 D Launcher.Model: updateItemInDatabase, item=ShortcutInfo, id=336, itemType=0, user=UserHandle{0}, mIconType=0, pkgName=com.android.todolist, className=com.android.todolist.MainActivity, screenId=1, container=-100, cellX=0, cellY=5, spanX=1, spanY=1, isLandscapePos=false
+01-11 18:01:31.786 23497 28609 D AppStatChecker: first launch package: com.android.todolist
+01-11 18:01:31.802  1611  1787 I ActivityManager: Start proc 28652:com.android.todolist/u0a498 for pre-top-activity {com.android.todolist/com.android.todolist.MainActivity} caller=com.miui.home
+01-11 18:01:31.881   973  1031 I ANDR-PERF-LM: FeatureState: readState() 162: AdaptLaunch: DB: com.android.todolist app state = 99
+01-11 18:01:31.881   973  1031 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 103,com.android.todolist,28652,1611,5161)
+01-11 18:01:31.881   973  1031 I ANDR-PERF-LM: FeatureState: readState() 162: PreKill: DB: com.android.todolist app state = 1
+01-11 18:01:31.887  9128  9145 D AutoInstallService: onForegroundInfoChanged: com.android.todolist
+01-11 18:01:31.887  4922  4982 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.android.todolist', mForegroundUid=10498, mForegroundPid=28652, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10090, mLastForegroundPid=2812, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+01-11 18:01:31.887  4922  4982 I GameBoosterService: onForegroundInfoChanged: Cur=com.android.todolist   last=com.miui.home
+01-11 18:01:31.887  6984  7064 I GST     : forePkg: com.android.todolist, preForePkg: com.miui.home
+01-11 18:01:31.888  6964  7343 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.android.todolist', mForegroundUid=10498, mForegroundPid=28652, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10090, mLastForegroundPid=2812, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+01-11 18:01:31.892  4922  4982 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.android.todolist', mForegroundUid=10498, mForegroundPid=28652, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10090, mLastForegroundPid=2812, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+01-11 18:01:32.055   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:32.117 28652 28652 D View    : com.android.todolist initForcedUseForceDark: 1
+01-11 18:01:32.356  2812  2812 D RecentsImpl: mActivityStateObserver com.android.todolist.MainActivity
+01-11 18:01:32.356  2812  2812 W RecentsImpl: onResumed className=com.android.todolist.MainActivity   mIsInAnotherPro=false
+01-11 18:01:32.356 28652 28652 W Looper  : PerfMonitor looperActivity : package=com.android.todolist/.MainActivity time=1ms latency=420ms running=0ms  procState=2 ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] } historyMsgCount=2 (msgIndex=1 wall=142ms seq=3 running=113ms runnable=8ms io=10ms late=2ms h=android.app.ActivityThread$H w=110) (msgIndex=2 wall=300ms seq=4 running=250ms runnable=10ms io=14ms late=121ms h=android.app.ActivityThread$H w=159)
+01-11 18:01:32.383  2417  2447 D CommandQueue: setStatus: setStatus: what = 0, action = upate_specail_mode, ext = Bundle[mParcelledData.dataSize=108][pkg = com.android.todolist[enable_config = false
+01-11 18:01:32.624  1611  1784 D ArtManagerInternalImpl: /data/misc/iorapd/com.android.todolist/1/com.android.todolist.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+01-11 18:01:32.626   973  1031 I ANDR-PERF-LM: FeatureState: readState() 162: PreKill: DB: com.android.todolist app state = 1
+01-11 18:01:32.627  1611  1770 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{a491e0d u0 com.android.todolist/.MainActivity t2486} time:948803988
+01-11 18:01:32.631  1611  1784 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +907ms
+01-11 18:01:32.631   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:32.637  1611  5161 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{fac9a5b mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)
+01-11 18:01:32.680   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:32.790 28747 28747 D AppActiveReceiver: receive app active broadcast for: com.android.todolist, install from: null
+01-11 18:01:35.929  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948807290, channel 'fac9a5b com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:01:35.971  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948807332, channel 'fac9a5b com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:01:36.096  1611  4239 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{fac9a5b mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,0)  to null(0,0)
+01-11 18:01:36.163  1611  4235 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{11f722a mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)
+01-11 18:01:37.316  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948808677, channel '11f722a com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:01:37.348  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948808710, channel '11f722a com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:01:37.375  4073  4073 I AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = inputType=Text imeActionName=DONE dump=[inputType=0x61 imeOptions=0x6 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=Name list label=null packageName=com.android.todolist autofillId=1073741824 fieldId=2131230821 fieldName=null extras=null hintLocales=null contentMimeTypes=null ], IncognitoMode = false, DeviceLocked = false
+01-11 18:01:37.564 26948 13646 W ogm     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+01-11 18:01:37.576 26948 12293 W ogm     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+01-11 18:01:39.171  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948810532, channel '11f722a com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:01:39.229  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948810591, channel '11f722a com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:01:39.270  1611  4256 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{11f722a mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)  to null(0,0)
+01-11 18:01:39.304  1611  4233 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{fac9a5b mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)
+01-11 18:01:39.476 28652 28704 W RenderInspector: DequeueBuffer time out on com.android.todolist/com.android.todolist.MainActivity, count=1, avg=18 ms, max=18 ms.
+01-11 18:01:40.141  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948811501, channel 'fac9a5b com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:01:40.190  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948811551, channel 'fac9a5b com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:01:40.216  1611  1769 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { cmp=com.android.todolist/.ListActivity (has extras) }
+01-11 18:01:40.216  1611  4256 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10498
+01-11 18:01:40.235 28652 28652 I Toast   : Show toast from OpPackageName:com.android.todolist, PackageName:com.android.todolist
+01-11 18:01:40.238  1611  4256 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 28652
+01-11 18:01:40.239   973  1031 I ANDR-PERF-LM: FeatureState: readState() 162: AdaptLaunch: DB: com.android.todolist app state = 99
+01-11 18:01:40.239   973  1031 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,com.android.todolist,28652,1611,4256)
+01-11 18:01:40.239   973  1031 I ANDR-PERF-LM: FeatureState: readState() 162: PreKill: DB: com.android.todolist app state = 1
+01-11 18:01:40.256  1611  4233 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{fac9a5b mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)  to null(0,0)
+01-11 18:01:40.357  2812  2812 D RecentsImpl: mActivityStateObserver com.android.todolist.ListActivity
+01-11 18:01:40.357  2812  2812 W RecentsImpl: onResumed className=com.android.todolist.ListActivity   mIsInAnotherPro=false
+01-11 18:01:40.409   973  1031 I ANDR-PERF-LM: FeatureState: readState() 162: PreKill: DB: com.android.todolist app state = 1
+01-11 18:01:40.411  1611  1784 I ActivityTaskManager: Displayed com.android.todolist/.ListActivity: +192ms
+01-11 18:01:40.412   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:40.423  1611  4256 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{1f17f4d mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.ListActivity}(1,1)
+01-11 18:01:40.440   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:40.443   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:40.465   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:40.908  1611  1770 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{bea723 u0 com.android.todolist/.ListActivity t2486} time:948812270
+01-11 18:01:41.109  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948812471, channel '1f17f4d com.android.todolist/com.android.todolist.ListActivity (server)'
+01-11 18:01:41.167  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948812528, channel '1f17f4d com.android.todolist/com.android.todolist.ListActivity (server)'
+01-11 18:01:41.278  1611  4256 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{1f17f4d mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.ListActivity}(1,0)  to null(0,0)
+01-11 18:01:42.195  1611  4256 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{1bfd6ac mode=1 rootTaskId=2486 u0 PopupWindow:41b8552}(1,0)  to Window{1f17f4d mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.ListActivity}(1,1)
+01-11 18:01:42.246  1611  4256 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{1f17f4d mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.ListActivity}(1,0)  to null(0,0)
+01-11 18:01:42.272  1611  4256 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@4c68d1
+01-11 18:01:42.279  1611  4256 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{eacf69d mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.ListActivity}(1,1)
+01-11 18:01:43.281  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948814642, channel 'eacf69d com.android.todolist/com.android.todolist.ListActivity (server)'
+01-11 18:01:43.339  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948814701, channel 'eacf69d com.android.todolist/com.android.todolist.ListActivity (server)'
+01-11 18:01:43.372  4073  4073 I AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = inputType=Text imeActionName=DONE dump=[inputType=0x61 imeOptions=0x6 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=тХитЦУтХитФРтХд╨РтХд╨Р label=null packageName=com.android.todolist autofillId=1073741825 fieldId=2131230821 fieldName=null extras=null hintLocales=null contentMimeTypes=null ], IncognitoMode = false, DeviceLocked = false
+01-11 18:01:43.397 26948 12293 W ogm     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+01-11 18:01:43.407 26948 28916 W ogm     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+01-11 18:01:44.784  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948816145, channel 'eacf69d com.android.todolist/com.android.todolist.ListActivity (server)'
+01-11 18:01:44.843  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948816204, channel 'eacf69d com.android.todolist/com.android.todolist.ListActivity (server)'
+01-11 18:01:44.868  1611  8134 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{eacf69d mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.ListActivity}(1,1)  to null(0,0)
+01-11 18:01:44.902  1611  4233 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{1f17f4d mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.ListActivity}(1,1)
+01-11 18:01:45.478  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948816839, channel '1f17f4d com.android.todolist/com.android.todolist.ListActivity (server)'
+01-11 18:01:45.486  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948816847, channel '1f17f4d com.android.todolist/com.android.todolist.ListActivity (server)'
+01-11 18:01:45.570  1611  8134 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{1f17f4d mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.ListActivity}(1,0)  to null(0,0)
+01-11 18:01:46.406  1611  8134 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{9d1b3cc mode=1 rootTaskId=2486 u0 PopupWindow:9fee1e1}(1,0)  to Window{1f17f4d mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.ListActivity}(1,1)
+01-11 18:01:47.067  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948818427, channel '1f17f4d com.android.todolist/com.android.todolist.ListActivity (server)'
+01-11 18:01:47.124  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948818485, channel '1f17f4d com.android.todolist/com.android.todolist.ListActivity (server)'
+01-11 18:01:47.157  4073  4073 I AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = inputType=Text imeActionName=DONE dump=[inputType=0x61 imeOptions=0x6 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=New task label=null packageName=com.android.todolist autofillId=1073741824 fieldId=2131230877 fieldName=null extras=null hintLocales=null contentMimeTypes=null ], IncognitoMode = false, DeviceLocked = false
+01-11 18:01:47.260 26948 20329 W ogm     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+01-11 18:01:47.264 26948 13646 W ogm     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+01-11 18:01:49.004  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948820366, channel '1f17f4d com.android.todolist/com.android.todolist.ListActivity (server)'
+01-11 18:01:49.029  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948820390, channel '1f17f4d com.android.todolist/com.android.todolist.ListActivity (server)'
+01-11 18:01:49.697  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948821058, channel '1f17f4d com.android.todolist/com.android.todolist.ListActivity (server)'
+01-11 18:01:49.739  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948821100, channel '1f17f4d com.android.todolist/com.android.todolist.ListActivity (server)'
+01-11 18:01:50.466  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948821827, channel '1f17f4d com.android.todolist/com.android.todolist.ListActivity (server)'
+01-11 18:01:50.500  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948821860, channel '1f17f4d com.android.todolist/com.android.todolist.ListActivity (server)'
+01-11 18:01:51.452  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948822812, channel '1f17f4d com.android.todolist/com.android.todolist.ListActivity (server)'
+01-11 18:01:51.476  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948822837, channel '1f17f4d com.android.todolist/com.android.todolist.ListActivity (server)'
+01-11 18:01:51.491  1611  4235 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10498
+01-11 18:01:51.491  1611  1769 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { cmp=com.android.todolist/.MainActivity }
+01-11 18:01:51.513  1611  4235 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 28652
+01-11 18:01:51.515   973  1031 I ANDR-PERF-LM: FeatureState: readState() 162: AdaptLaunch: DB: com.android.todolist app state = 99
+01-11 18:01:51.515   973  1031 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,com.android.todolist,28652,1611,4235)
+01-11 18:01:51.515   973  1031 I ANDR-PERF-LM: FeatureState: readState() 162: PreKill: DB: com.android.todolist app state = 1
+01-11 18:01:51.535  1611  4235 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{1f17f4d mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.ListActivity}(1,1)  to null(0,0)
+01-11 18:01:51.572  2812  2812 D RecentsImpl: mActivityStateObserver com.android.todolist.MainActivity
+01-11 18:01:51.572  2812  2812 W RecentsImpl: onResumed className=com.android.todolist.MainActivity   mIsInAnotherPro=false
+01-11 18:01:51.651   973  1031 I ANDR-PERF-LM: FeatureState: readState() 162: PreKill: DB: com.android.todolist app state = 1
+01-11 18:01:51.654  1611  1784 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +160ms
+01-11 18:01:51.655   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:51.663   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:51.669  1611  4235 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{9dcabad mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)
+01-11 18:01:51.674   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:51.685   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:51.696   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:51.711   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:51.713   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:51.725   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:51.727   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:51.745   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:51.748   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:51.759   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:51.762   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:51.778   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:51.781   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:51.795   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:51.797   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:51.813   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:51.816   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:52.155  1611  1770 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{fc3e971 u0 com.android.todolist/.MainActivity t2486} time:948823517
+01-11 18:01:52.514  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948823875, channel '9dcabad com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:01:52.545  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948823906, channel '9dcabad com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:01:52.560   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:01:53.173  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948824534, channel '9dcabad com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:01:53.222  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948824584, channel '9dcabad com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:01:53.361 28652 28704 W RenderInspector: DequeueBuffer time out on com.android.todolist/com.android.todolist.MainActivity, count=1, avg=21 ms, max=21 ms.
+01-11 18:01:53.545 28652 28704 W RenderInspector: DequeueBuffer time out on com.android.todolist/com.android.todolist.MainActivity, count=1, avg=19 ms, max=19 ms.
+01-11 18:01:54.644  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948826004, channel '9dcabad com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:01:54.667  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948826029, channel '9dcabad com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:01:55.438  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948826799, channel '9dcabad com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:01:55.486  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948826847, channel '9dcabad com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:01:55.545  1611  4235 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{9dcabad mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,0)  to null(0,0)
+01-11 18:01:55.595  1611  4235 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{accf4af mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)
+01-11 18:01:56.515  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948827875, channel 'accf4af com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:01:56.564  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948827925, channel 'accf4af com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:01:56.598  1611  5161 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{accf4af mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)  to null(0,0)
+01-11 18:01:56.631  1611  4256 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{9dcabad mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)
+01-11 18:01:57.216  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948828577, channel '9dcabad com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:01:57.249  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948828610, channel '9dcabad com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:01:57.967  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948829328, channel '9dcabad com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:01:58.026  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948829388, channel '9dcabad com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:01:58.778  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948830139, channel '9dcabad com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:01:58.786  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948830147, channel '9dcabad com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:01:59.446  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948830808, channel '9dcabad com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:01:59.504  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948830866, channel '9dcabad com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:01:59.574  1611  4256 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{9dcabad mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,0)  to null(0,0)
+01-11 18:01:59.606  1611  4256 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{ad25da2 mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)
+01-11 18:02:00.433  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948831794, channel 'ad25da2 com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:02:00.482  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948831843, channel 'ad25da2 com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:02:00.512  4073  4073 I AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = inputType=Text imeActionName=DONE dump=[inputType=0x61 imeOptions=0x6 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=Name list label=null packageName=com.android.todolist autofillId=1073741824 fieldId=2131230821 fieldName=null extras=null hintLocales=null contentMimeTypes=null ], IncognitoMode = false, DeviceLocked = false
+01-11 18:02:00.540 26948 13646 W ogm     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+01-11 18:02:00.562 26948 20329 W ogm     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+01-11 18:02:02.329  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948833689, channel 'ad25da2 com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:02:02.378  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948833739, channel 'ad25da2 com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:02:02.411  1611  4235 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{ad25da2 mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)  to null(0,0)
+01-11 18:02:02.425 28652 28652 I Toast   : Show toast from OpPackageName:com.android.todolist, PackageName:com.android.todolist
+01-11 18:02:02.445  1611  4235 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{9dcabad mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)
+01-11 18:02:03.957  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948835319, channel '9dcabad com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:02:04.017  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948835378, channel '9dcabad com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:02:04.100  1611  8134 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{9dcabad mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,0)  to null(0,0)
+01-11 18:02:04.116  1611  8134 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{7ae965b mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)
+01-11 18:02:04.409  1611  8134 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@dc45cd4
+01-11 18:02:04.928  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948836289, channel '7ae965b com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:02:04.976  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948836337, channel '7ae965b com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:02:04.996  4073  4073 I AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = inputType=Text imeActionName=DONE dump=[inputType=0x61 imeOptions=0x6 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=Name list label=null packageName=com.android.todolist autofillId=1073741848 fieldId=2131230821 fieldName=null extras=null hintLocales=null contentMimeTypes=null ], IncognitoMode = false, DeviceLocked = false
+01-11 18:02:05.023 26948 28955 W ogm     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+01-11 18:02:05.027 26948 20330 W ogm     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+01-11 18:02:07.057  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948838418, channel '7ae965b com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:02:07.115  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948838477, channel '7ae965b com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:02:07.141  1611  4235 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{7ae965b mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)  to null(0,0)
+01-11 18:02:07.174  1611  4235 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{9dcabad mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)
+01-11 18:02:08.060  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948839421, channel '9dcabad com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:02:08.109  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948839470, channel '9dcabad com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:02:08.177  1611  4233 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{9dcabad mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,0)  to null(0,0)
+01-11 18:02:09.320  1611  4233 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.About} from uid 10498
+01-11 18:02:09.320  1611  1769 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { cmp=com.android.todolist/.About }
+01-11 18:02:09.350  1611  4233 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 28652
+01-11 18:02:09.354   973  1031 I ANDR-PERF-LM: FeatureState: readState() 162: AdaptLaunch: DB: com.android.todolist app state = 99
+01-11 18:02:09.354   973  1031 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,com.android.todolist,28652,1611,4233)
+01-11 18:02:09.355   973  1031 I ANDR-PERF-LM: FeatureState: readState() 162: PreKill: DB: com.android.todolist app state = 1
+01-11 18:02:09.362  1611  4233 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{813f364 mode=1 rootTaskId=2486 u0 PopupWindow:ae87927}(1,0)  to Window{9dcabad mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)
+01-11 18:02:09.379  1611  4233 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{9dcabad mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)  to null(0,0)
+01-11 18:02:09.407  2812  2812 D RecentsImpl: mActivityStateObserver com.android.todolist.About
+01-11 18:02:09.407  2812  2812 W RecentsImpl: onResumed className=com.android.todolist.About   mIsInAnotherPro=false
+01-11 18:02:09.458   973  1031 I ANDR-PERF-LM: FeatureState: readState() 162: PreKill: DB: com.android.todolist app state = 1
+01-11 18:02:09.461  1611  1784 I ActivityTaskManager: Displayed com.android.todolist/.About: +137ms
+01-11 18:02:09.461   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:09.466   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:09.480  1611  4233 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{ec4bed7 mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.About}(1,1)
+01-11 18:02:09.947  1611  1770 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{f48e585 u0 com.android.todolist/.About t2486} time:948841309
+01-11 18:02:10.533  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948841893, channel 'ec4bed7 com.android.todolist/com.android.todolist.About (server)'
+01-11 18:02:10.559   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:10.560   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:10.674  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948842035, channel 'ec4bed7 com.android.todolist/com.android.todolist.About (server)'
+01-11 18:02:10.675   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:10.677   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:10.678   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:11.426  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948842788, channel 'ec4bed7 com.android.todolist/com.android.todolist.About (server)'
+01-11 18:02:11.476  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948842838, channel 'ec4bed7 com.android.todolist/com.android.todolist.About (server)'
+01-11 18:02:11.535  1611  8134 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{ec4bed7 mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.About}(1,1)  to null(0,0)
+01-11 18:02:11.544  2812  2812 D RecentsImpl: mActivityStateObserver com.android.todolist.MainActivity
+01-11 18:02:11.544  2812  2812 W RecentsImpl: onResumed className=com.android.todolist.MainActivity   mIsInAnotherPro=false
+01-11 18:02:11.586  1611  8134 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{9dcabad mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)
+01-11 18:02:11.588   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:11.593   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:11.610   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:11.613   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:12.070  1611  1770 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{fc3e971 u0 com.android.todolist/.MainActivity t2486} time:948843432
+01-11 18:02:12.280  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948843640, channel '9dcabad com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:02:12.319  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948843681, channel '9dcabad com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:02:12.327   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:12.371  1611  8134 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{9dcabad mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,0)  to null(0,0)
+01-11 18:02:13.075  1611  4239 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.Info} from uid 10498
+01-11 18:02:13.075  1611  1769 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { cmp=com.android.todolist/.Info }
+01-11 18:02:13.101  1611  4233 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 28652
+01-11 18:02:13.102   973  1031 I ANDR-PERF-LM: FeatureState: readState() 162: AdaptLaunch: DB: com.android.todolist app state = 99
+01-11 18:02:13.102   973  1031 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,com.android.todolist,28652,1611,4233)
+01-11 18:02:13.102   973  1031 I ANDR-PERF-LM: FeatureState: readState() 162: PreKill: DB: com.android.todolist app state = 1
+01-11 18:02:13.121  1611  4239 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{94befa8 mode=1 rootTaskId=2486 u0 PopupWindow:f4c3325}(1,0)  to Window{9dcabad mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)
+01-11 18:02:13.138  1611  4239 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{9dcabad mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)  to null(0,0)
+01-11 18:02:13.151  2812  2812 D RecentsImpl: mActivityStateObserver com.android.todolist.Info
+01-11 18:02:13.152  2812  2812 W RecentsImpl: onResumed className=com.android.todolist.Info   mIsInAnotherPro=false
+01-11 18:02:13.193   973  1031 I ANDR-PERF-LM: FeatureState: readState() 162: PreKill: DB: com.android.todolist app state = 1
+01-11 18:02:13.194  1611  1784 I ActivityTaskManager: Displayed com.android.todolist/.Info: +117ms
+01-11 18:02:13.195   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:13.201   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:13.203   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:13.205  1611  4233 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{4409a97 mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.Info}(1,1)
+01-11 18:02:13.242   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:13.253   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:13.261   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:13.268   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:13.689  1611  1770 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{3fc769f u0 com.android.todolist/.Info t2486} time:948845051
+01-11 18:02:13.765  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948845126, channel '4409a97 com.android.todolist/com.android.todolist.Info (server)'
+01-11 18:02:13.791   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:13.792   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:13.876   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:13.949  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948845310, channel '4409a97 com.android.todolist/com.android.todolist.Info (server)'
+01-11 18:02:13.950   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:13.953   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:13.954   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:14.384  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948845745, channel '4409a97 com.android.todolist/com.android.todolist.Info (server)'
+01-11 18:02:14.401   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:14.402   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:14.525  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948845886, channel '4409a97 com.android.todolist/com.android.todolist.Info (server)'
+01-11 18:02:14.529   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:14.531   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:14.531   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:14.960  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x0, 948846321, channel '4409a97 com.android.todolist/com.android.todolist.Info (server)'
+01-11 18:02:14.985  1611  2193 D MIUIInput: [MotionEvent] publisher action=0x1, 948846346, channel '4409a97 com.android.todolist/com.android.todolist.Info (server)'
+01-11 18:02:15.027  1611  4239 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{4409a97 mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.Info}(1,1)  to null(0,0)
+01-11 18:02:15.047  2812  2812 D RecentsImpl: mActivityStateObserver com.android.todolist.MainActivity
+01-11 18:02:15.047  2812  2812 W RecentsImpl: onResumed className=com.android.todolist.MainActivity   mIsInAnotherPro=false
+01-11 18:02:15.098   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:15.103   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:15.110  1611  8134 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{9dcabad mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)
+01-11 18:02:15.155   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:15.168   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:15.595  1611  1770 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{fc3e971 u0 com.android.todolist/.MainActivity t2486} time:948846956
+01-11 18:02:15.992  1611  2193 D MIUIInput: [KeyEvent] publisher action:0x0,  keyCode:4 , 948847350,channel '9dcabad com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:02:16.006  1611  2193 D MIUIInput: [KeyEvent] publisher action:0x1,  keyCode:4 , 948847366,channel '9dcabad com.android.todolist/com.android.todolist.MainActivity (server)'
+01-11 18:02:16.030  1611  5161 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{9dcabad mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)  to null(0,0)
+01-11 18:02:16.044  2812  2812 D RecentsImpl: mActivityStateObserver com.android.todolist.MainActivity
+01-11 18:02:16.044  2812  2812 W RecentsImpl: onResumed className=com.android.todolist.MainActivity   mIsInAnotherPro=false
+01-11 18:02:16.077   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:16.087   973   973 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 0
+01-11 18:02:16.096  1611  4233 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{fac9a5b mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)
+01-11 18:02:16.581  1611  1770 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{a491e0d u0 com.android.todolist/.MainActivity t2486} time:948847943
+01-11 18:02:17.595  6984  7064 I GST     : forePkg: com.miui.home, preForePkg: com.android.todolist
+01-11 18:02:17.595  6964  8010 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10090, mForegroundPid=2812, mLastForegroundPackageName='com.android.todolist', mLastForegroundUid=10498, mLastForegroundPid=28652, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+01-11 18:02:17.595  4922  4967 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10090, mForegroundPid=2812, mLastForegroundPackageName='com.android.todolist', mLastForegroundUid=10498, mLastForegroundPid=28652, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+01-11 18:02:17.595  4922  4967 I GameBoosterService: onForegroundInfoChanged: Cur=com.miui.home  last=com.android.todolist
+01-11 18:02:17.603  4922  4967 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10090, mForegroundPid=2812, mLastForegroundPackageName='com.android.todolist', mLastForegroundUid=10498, mLastForegroundPid=28652, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+01-11 18:02:17.616  1611  4239 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{fac9a5b mode=1 rootTaskId=2486 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)  to null(0,0)
